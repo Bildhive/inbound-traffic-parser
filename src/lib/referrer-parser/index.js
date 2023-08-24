@@ -1,4 +1,4 @@
-const matchers = require('./matchers');
+import matchers from './matchers';
 
 function parse(url, referrer) {
     for (const matcher of matchers) {
@@ -12,6 +12,6 @@ function parse(url, referrer) {
     }
 }
 
-module.exports = {
+export {
     parse
 }

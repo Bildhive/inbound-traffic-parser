@@ -1,4 +1,4 @@
-module.exports = function (url, referrer) {
+export default function (url, referrer) {
     if (
         referrer.host && referrer.href &&
         referrer.host.indexOf('google') !== -1

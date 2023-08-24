@@ -1,4 +1,4 @@
-const { parse } = require('../lib/main');
+import { parse } from '../src/lib/main';
 
 test('parse is defined', () => {
     expect(parse).toBeDefined();
