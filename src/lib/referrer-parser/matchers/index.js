@@ -5,11 +5,23 @@ import duckduckgo from './search/duckduckgo';
 import google from './search/google';
 import yahoo from './search/yahoo';
 
+import facebook from './social/facebook';
+import instagram from './social/instagram';
+import linkedin from './social/linkedin';
+import pinterest from './social/pinterest';
+import twitter from './social/twitter';
+
 export default [
     aol,
     baidu,
     bing,
     duckduckgo,
     google,
-    yahoo
+    yahoo,
+
+    facebook,
+    instagram,
+    linkedin,
+    pinterest,
+    twitter,
 ];
