@@ -9,5 +9,5 @@ test('parses false if not duckduckgo referrer', () => {
 test('parses duckduckgo referrer', () => {
     const result = duckduckgo(new URL('https://example.com'), new URL('https://duckduckgo.com'))
 
-    expect(result).toMatchObject({ type: 'search', engine: 'duckduckgo' });
+    expect(result).toMatchObject({ type: 'search', source: 'duckduckgo' });
 });

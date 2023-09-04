@@ -9,5 +9,5 @@ test('parses false if not bing referrer', () => {
 test('parses bing referrer', () => {
     const result = bing(new URL('https://example.com'), new URL('https://bing.com'))
 
-    expect(result).toMatchObject({ type: 'search', engine: 'bing' });
+    expect(result).toMatchObject({ type: 'search', source: 'bing' });
 });

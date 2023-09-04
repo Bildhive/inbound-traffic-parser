@@ -9,5 +9,5 @@ test('parses false if not yandex referrer', () => {
 test('parses yandex referrer', () => {
     const result = yandex(new URL('https://example.com'), new URL('https://yandex.com'))
 
-    expect(result).toMatchObject({ type: 'search', engine: 'yandex' });
+    expect(result).toMatchObject({ type: 'search', source: 'yandex' });
 });

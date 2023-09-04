@@ -19,7 +19,7 @@ test('it returns parsed referrer ', () => {
     expect(result).toMatchObject({
         referrer: expect.objectContaining({
             type: 'search',
-            engine: 'google'
+            source: 'google'
         }),
         campaign: expect.any(Object)
     });

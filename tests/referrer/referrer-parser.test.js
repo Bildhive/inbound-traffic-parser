@@ -30,5 +30,5 @@ test('parses referrer from the matchers', () => {
         new URL('https://google.com/search?q=example'),
     );
 
-    expect(result).toMatchObject({ type: 'search', engine: 'google', query: 'example' });    
+    expect(result).toMatchObject({ type: 'search', source: 'google', query: 'example' });    
 })

@@ -12,7 +12,7 @@ export default function (url, referrer) {
             result.domain === 'yahoo.com' &&
             result.sub.indexOf('search') !== -1
         ) {
-            const description = { type: 'search', engine: 'yahoo' };
+            const description = { type: 'search', source: 'yahoo' };
             const query = referrer.searchParams.get('q');
             if (query) description.query = query;
             return description;

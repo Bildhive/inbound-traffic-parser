@@ -9,5 +9,5 @@ test('parses false if not baidu referrer', () => {
 test('parses baidu referrer', () => {
     const result = baidu(new URL('https://example.com'), new URL('https://baidu.com'))
 
-    expect(result).toMatchObject({ type: 'search', engine: 'baidu' });
+    expect(result).toMatchObject({ type: 'search', source: 'baidu' });
 });

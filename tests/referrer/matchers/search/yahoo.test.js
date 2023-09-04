@@ -9,5 +9,5 @@ test('parses false if not yahoo referrer', () => {
 test('parses yahoo referrer', () => {
     const result = yahoo(new URL('https://example.com'), new URL('https://search.yahoo.com'))
 
-    expect(result).toMatchObject({ type: 'search', engine: 'yahoo' });
+    expect(result).toMatchObject({ type: 'search', source: 'yahoo' });
 });

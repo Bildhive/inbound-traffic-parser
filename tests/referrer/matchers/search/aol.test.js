@@ -9,5 +9,5 @@ test('parses false if not aol referrer', () => {
 test('parses aol referrer', () => {
     const result = aol(new URL('https://example.com'), new URL('https://search.aol.com'))
 
-    expect(result).toMatchObject({ type: 'search', engine: 'aol' });
+    expect(result).toMatchObject({ type: 'search', source: 'aol' });
 });
