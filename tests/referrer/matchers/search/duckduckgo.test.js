@@ -1,4 +1,4 @@
-import duckduckgo from "../../../../src/lib/referrer-parser/matchers/search/duckduckgo";
+import duckduckgo from "src/lib/referrer-parser/matchers/search/duckduckgo";
 
 test('parses false if not duckduckgo referrer', () => {
     const result = duckduckgo(new URL('https://example.com'), new URL('https://unknown-website.com'))

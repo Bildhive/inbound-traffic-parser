@@ -1,4 +1,4 @@
-import yahoo from "../../../../src/lib/referrer-parser/matchers/search/yahoo";
+import yahoo from "src/lib/referrer-parser/matchers/search/yahoo";
 
 test('parses false if not yahoo referrer', () => {
     const result = yahoo(new URL('https://example.com'), new URL('https://unknown-website.com'))

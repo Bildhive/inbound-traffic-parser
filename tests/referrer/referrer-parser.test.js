@@ -1,4 +1,4 @@
-import { parse } from "../../src/lib/referrer-parser";
+import { parse } from "src/lib/referrer-parser";
 
 test('parse is defined', () => {
     expect(parse).toBeDefined();    
