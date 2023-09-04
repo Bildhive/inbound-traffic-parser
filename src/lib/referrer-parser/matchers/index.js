@@ -1,3 +1,5 @@
+import bingAd from './ad/bing';
+
 import aol from './search/aol';
 import baidu from './search/baidu';
 import bing from './search/bing';
@@ -12,6 +14,8 @@ import pinterest from './social/pinterest';
 import twitter from './social/twitter';
 
 export default [
+    bingAd,
+    
     aol,
     baidu,
     bing,
