@@ -1,4 +1,12 @@
 {
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "src/lib/*": [
+                "src/lib/*"
+            ]
+        }
+    },
     "typeAcquisition": {
         "include": [
             "jest"

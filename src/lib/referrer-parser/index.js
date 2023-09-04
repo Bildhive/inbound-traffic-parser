@@ -1,4 +1,8 @@
-import matchers from './matchers';
+// import matchers from './matchers';
+
+import matchers from "src/lib/referrer-parser/matchers";
+
+
 
 function parse(url, referrer) {
     for (const matcher of matchers) {
