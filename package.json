@@ -1,6 +1,6 @@
 {
   "name": "inbound-traffic-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
   "files": [
