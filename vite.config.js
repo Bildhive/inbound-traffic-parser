@@ -14,7 +14,7 @@ export default defineConfig({
 
   resolve: {
     alias: {
-      'sec/lib': fileURLToPath(new URL('./src/lib', import.meta.url))
+      'src/lib': fileURLToPath(new URL('./src/lib', import.meta.url))
     }
   }
 });
