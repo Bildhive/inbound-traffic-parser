@@ -4,6 +4,8 @@ import yahooAd from './ad/yahoo';
 
 import direct from './direct/direct';
 
+import internal from './internal/internal';
+
 import aol from './search/aol';
 import baidu from './search/baidu';
 import bing from './search/bing';
@@ -23,6 +25,8 @@ export default [
     yahooAd,
 
     direct,
+
+    internal,
     
     aol,
     baidu,
