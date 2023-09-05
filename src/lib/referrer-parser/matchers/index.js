@@ -2,6 +2,8 @@ import bingAd from './ad/bing';
 import googleAd from './ad/google';
 import yahooAd from './ad/yahoo';
 
+import direct from './direct/direct';
+
 import aol from './search/aol';
 import baidu from './search/baidu';
 import bing from './search/bing';
@@ -19,6 +21,8 @@ export default [
     bingAd,
     googleAd,
     yahooAd,
+
+    direct,
     
     aol,
     baidu,
