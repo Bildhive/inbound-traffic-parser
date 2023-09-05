@@ -18,6 +18,7 @@ import instagram from './social/instagram';
 import linkedin from './social/linkedin';
 import pinterest from './social/pinterest';
 import twitter from './social/twitter';
+import unknown from './unknown/unknown';
 
 export default [
     bingAd,
@@ -40,4 +41,6 @@ export default [
     linkedin,
     pinterest,
     twitter,
+
+    unknown,
 ];
