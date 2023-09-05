@@ -20,3 +20,7 @@ function parse(url, referrer){
 export {
     parse
 }
+
+window.ITP = {
+    parse
+}
