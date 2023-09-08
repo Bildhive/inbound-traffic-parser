@@ -1,3 +1,3 @@
 export default function (url, referrer) {
-    return { type: 'unknown' };
+    return { type: 'unknown', source: referrer.host };
 }
